@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegActivity"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/re_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账户"/>
+    <EditText
+        android:id="@+id/re_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"/>
+    <Button
+        android:onClick="reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_tian"
+        android:gravity="center"/>
+</LinearLayout>
